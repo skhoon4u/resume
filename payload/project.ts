@@ -4,38 +4,62 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Linux Kernel Optimization Project',
-      startedAt: '2020-06',
-      where: 'Linux Foundation',
+      title: 'Make 2025',
+      startedAt: '2024-12',
+      endedAt: '2025-02',
+      where: 'Side Project',
       descriptions: [
         {
           content:
-            'Initiated and lead a collaborative project aimed at optimizing the Linux Kernel for various hardware architectures.',
+            'Developed a web service that utilizes generative AI APIs to assist users in setting and achieving yearly goals.',
         },
         {
           content:
-            'Achieved significant improvements in system performance and resource management.',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: '30% improvement in system resource efficiency' },
-            { content: 'Job Scheduler Refactor and Optimization' },
-          ],
+            'Classifies user goals into annual keywords and subdivides them into actionable monthly and weekly plans, delivered via email.',
+        },
+        {
+          content:
+            'Responsible for full-stack development (React for frontend, Node.js and Express for backend), Google Analytics integration, MongoDB for user management, and AWS EC2/S3 for deployment.',
         },
       ],
     },
     {
-      title: 'Global Linux Bootcamp',
-      startedAt: '2017-05',
-      endedAt: '2019-12',
-      where: 'Open Source Community',
+      title: 'URP(Undergraduate Research Program for Outstanding Students)',
+      startedAt: '2024-09',
+      endedAt: '2024-12',
+      where: 'AI Convergence department at Sungkyunkwan University',
       descriptions: [
         {
           content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+            'Under Prof. Jinyoung Han, studied basic of ML and NLP and did presentations every two weeks about developments.',
         },
         {
           content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
+            'Fine-tuned Blenderbot on the ESConv dataset based on research papers to develop a chatbot for psychological counseling.',
+        },
+        {
+          content:
+            'Implemented the pipeline in Python and developed a web service using React and Node.js.',
+        },
+      ],
+    },
+    {
+      title: 'Google ML Bootcamp 2024',
+      startedAt: '2024-06',
+      endedAt: '2024-10',
+      where: 'Google Developers',
+      descriptions: [
+        {
+          content:
+            'Successfully completed Google ML Bootcamp, studied Andrew Ng’s Deep Learning Specialization via Coursera.',
+        },
+        {
+          content:
+            'Fine-tuned Blenderbot on the ESConv dataset based on research papers to develop a chatbot for psychological counseling.',
+        },
+        {
+          content:
+            'Gained practical development experience through a Kaggle project and chatbot development utilizing the Gemma model.',
         },
       ],
     },

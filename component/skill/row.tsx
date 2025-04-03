@@ -99,7 +99,6 @@ function createCalculatedSkillItems(items: ISkill.Item[], isVerticalScreen: bool
     </Row>
   );
 }
-
 function createBadge(level?: ISkill.Item['level']) {
   if (!level) {
     return '';
@@ -107,16 +106,11 @@ function createBadge(level?: ISkill.Item['level']) {
 
   const color = (() => {
     switch (level) {
-      case 3: {
-        return 'primary';
-      }
-      case 2: {
-        return 'secondary';
-      }
+      case 2:
+        return 'primary'; // 파란색
       case 1:
-      default: {
-        return 'light';
-      }
+      default:
+        return 'secondary'; // 회색
     }
   })();
 

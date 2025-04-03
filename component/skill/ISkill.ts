@@ -41,6 +41,6 @@ export declare namespace ISkill {
      * @value 3: 파란색 뱃지로 나타난다. (primary)
      * @value undefined: 뱃지가 붙지 않는다.
      */
-    level?: 1 | 2 | 3;
+    level?: 1 | 2;
   }
 }

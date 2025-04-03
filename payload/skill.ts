@@ -4,32 +4,24 @@ const programmingLanguages: ISkill.Skill = {
   category: 'Programming Languages',
   items: [
     {
-      title: 'C',
-      level: 3,
+      title: 'Python',
+      level: 2,
     },
     {
       title: 'Shell Scripting',
-      level: 3,
-    },
-    {
-      title: 'Python',
-      level: 3,
-    },
-    {
-      title: 'Perl',
       level: 2,
     },
     {
-      title: 'Golang',
-      level: 2,
+      title: 'C',
+      level: 1,
     },
     {
-      title: 'Rust',
+      title: 'JavaScript',
       level: 1,
     },
   ],
 };
-
+/*
 const kernelDevelopment: ISkill.Skill = {
   category: 'Kernel Development',
   items: [
@@ -137,27 +129,21 @@ const networkSecurity: ISkill.Skill = {
     },
   ],
 };
-
+*/
 const misc: ISkill.Skill = {
   category: 'Misc',
   items: [
     {
-      title: 'Coffee Brewing',
+      title: 'MIDI',
     },
     {
-      title: "Rubik's Cube Solving",
+      title: 'Play anything in a band',
     },
     {
-      title: 'Table Tennis',
+      title: 'Plan for everything',
     },
     {
-      title: 'Guitar Playing',
-    },
-    {
-      title: 'Joke Telling',
-    },
-    {
-      title: 'Duct Tape Crafting',
+      title: 'Organize data',
     },
   ],
 };
@@ -166,13 +152,13 @@ const skill: ISkill.Payload = {
   disable: false,
   skills: [
     programmingLanguages,
-    kernelDevelopment,
-    virtualization,
-    automation,
-    networkSecurity,
+    // kernelDevelopment,
+    // virtualization,
+    // automation,
+    // networkSecurity,
     misc,
   ],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  tooltip: '1: Have Experience with\n2: Am Familiar with',
 };
 
 export default skill;

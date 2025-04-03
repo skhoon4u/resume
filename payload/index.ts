@@ -9,6 +9,8 @@ import education from './education';
 import article from './article';
 import etc from './etc';
 import footer from './footer';
+import award from './award';
+import teach from './teach';
 
 import { _global } from './_global';
 
@@ -18,12 +20,14 @@ import { ISkill } from '../component/skill/ISkill';
 import { IOpenSource } from '../component/openSource/IOpenSource';
 import { IExperience } from '../component/experience/IExperience';
 import { IProject } from '../component/project/IProject';
+import { IAward } from '../component/award/IAward';
 import { IPresentation } from '../component/presentation/IPresentation';
 import { IEducation } from '../component/education/IEducation';
 import { IEtc } from '../component/etc/IEtc';
 import { IFooter } from '../component/footer/IFooter';
 import { IGlobal } from '../component/common/IGlobal';
 import { IArticle } from '../component/article/IArticle';
+import { ITeach } from '../component/teach/ITeach';
 
 const Payload: Payload = {
   profile,
@@ -32,12 +36,13 @@ const Payload: Payload = {
   openSource,
   experience,
   project,
+  award,
   presentation,
   article,
   education,
   etc,
+  teach,
   footer,
-
   _global,
 };
 
@@ -49,11 +54,12 @@ interface Payload {
   experience: IExperience.Payload;
   project: IProject.Payload;
   presentation: IPresentation.Payload;
+  award: IAward.Payload;
   education: IEducation.Payload;
   article: IArticle.Payload;
   etc: IEtc.Payload;
   footer: IFooter.Payload;
-
+  teach: ITeach.Payload;
   _global: IGlobal.Payload;
 }
 
